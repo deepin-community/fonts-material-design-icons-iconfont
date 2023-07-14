@@ -1,5 +1,57 @@
-template-repository (1.0-1) unstable; urgency=medium
+fonts-material-design-icons-iconfont (6.7.0+dfsg-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
+  * debian/copyright: Update for 2023.
+  * debian/control:
+    + Update Standards-Version to 4.6.2 (no changes needed).
+    + Update short description.
+  * debian/source/lintian-overrides: Update tags and syntax.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Hugh McMaster <hugh.mcmaster@outlook.com>  Sun, 26 Feb 2023 19:46:11 +1100
+
+fonts-material-design-icons-iconfont (6.4.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream version.
+  * debian/control:
+    - Update Vcs-* URLs.
+    - Raise Standards-Version to 4.6.0 (no changes needed).
+  * debian/copyright:
+    - Update Files-Excluded and associated Comment field.
+    - Update for 2022.
+  * debian/gbp.conf: Use DEP-14 branch naming.
+  * debian/install: Install .map and .scss files.
+  * debian/source/lintian-overrides: Update file context.
+
+ -- Hugh McMaster <hugh.mcmaster@outlook.com>  Thu, 03 Mar 2022 21:51:00 +1100
+
+fonts-material-design-icons-iconfont (6.1.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream version (Closes: #973616).
+  * Repack the upstream tarball to remove the DFSG-incompatible docs folder.
+  * debian/copyright: Update for 6.1.0+dfsg.
+  * debian/control:
+    - Bump debhelper-compat to version 13.
+    - Raise Standards-Version from 4.4.1 to 4.5.0.
+  * debian/source/lintian-overrides:
+    - Remove testsuite-autopkgtest-missing override.
+
+ -- Hugh McMaster <hugh.mcmaster@outlook.com>  Thu, 12 Nov 2020 22:41:15 +1100
+
+fonts-material-design-icons-iconfont (5.0.1-2) unstable; urgency=medium
+
+  * Source-only upload.
+  * debian/control:
+    - Raise Standards-Version to 4.4.1 from 4.4.0 (no changes needed).
+    - Add Rules-Requires-Root: no.
+  * debian/source/lintian-overrides: Add overrides for the following tags:
+    - debian-watch-does-not-check-gpg-signature
+    - testsuite-autopkgtest-missing
+  * Add debian/gbp.conf.
+
+ -- Hugh McMaster <hugh.mcmaster@outlook.com>  Sun, 17 Nov 2019 19:33:04 +1100
+
+fonts-material-design-icons-iconfont (5.0.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #934598)
+
+ -- Hugh McMaster <hugh.mcmaster@outlook.com>  Tue, 27 Aug 2019 23:30:00 +1000

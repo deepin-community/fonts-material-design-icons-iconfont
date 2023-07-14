@@ -1,15 +1,24 @@
-Source: template-repository
-Section: unknown
+Source: fonts-material-design-icons-iconfont
+Section: fonts
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://github.com/jossef/material-design-icons-iconfont
+Vcs-Browser: https://salsa.debian.org/hmc/fonts-material-design-icons-iconfont
+Vcs-Git: https://salsa.debian.org/hmc/fonts-material-design-icons-iconfont.git
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: fonts-material-design-icons-iconfont
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Material Design Icons DX
+ Material Design icons are the official icon set from Google
+ designed under the Material Design guidelines.
+ .
+ This package is a fork of the official upstream project and includes many
+ fixes and improvements, such as missing icons. The package contains the
+ Material Icons font in TrueType format, Embedded OpenType format and both
+ versions of the Web Open Font Format. It also includes the Material Design
+ icons Cascading Style Sheet.
