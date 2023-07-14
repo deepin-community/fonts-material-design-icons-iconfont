@@ -1,0 +1,7 @@
+version=4
+
+opts="repacksuffix=+dfsg, \
+      repack, compression=xz, \
+      dversionmangle=s/@DEB_EXT@//, \
+      filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/fonts-material-design-icons-iconfont-$1\.tar\.gz/" \
+  https://github.com/jossef/material-design-icons-iconfont/tags .*/v?(\d\S+)\.tar\.gz

@@ -1,0 +1,6 @@
+dist/*.css          /usr/share/fonts-material-design-icons-iconfont/css
+dist/*.map          /usr/share/fonts-material-design-icons-iconfont/css
+dist/fonts/*.eot    /usr/share/fonts/eot/material-design-icons-iconfont
+dist/fonts/*.ttf    /usr/share/fonts/truetype/material-design-icons-iconfont
+dist/fonts/*.woff*  /usr/share/fonts/woff/material-design-icons-iconfont
+src/*.scss          /usr/share/fonts-material-design-icons-iconfont/scss
